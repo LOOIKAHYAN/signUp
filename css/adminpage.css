@@ -1,0 +1,244 @@
+
+body {
+    margin: auto;
+    font-family: "Century Gothic";
+    background-image: url("../image/wallpaper.jpeg");
+    background-size: 1400px 780px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+#title {
+    margin: 0;
+    padding-top: 10px;
+    font-size: 130%;
+    background-image: linear-gradient(to right, lightblue, rgb(12,113,255), lightblue);
+    text-align: center;
+    height: 40px;
+}
+
+/* nav */
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: lightsteelblue;
+    text-align: center;
+}
+
+nav ul {
+    margin-top: 0px;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 80px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}  
+
+nav ul li a:hover {
+    color: darkblue;
+    font-weight: 1000;
+}
+
+/* logout button */
+#logout {
+    background: none;
+    border: none;
+    font-family: "Century Gothic";
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#logout:hover {
+    color: darkblue;
+    font-weight: 1000;
+}
+
+/* section */
+section {
+    margin: 0 20px;
+    padding-top: 100px;
+    height: 75vh;
+    background-color: rgba(255,255,255,0.5);
+}
+
+section h3, p {
+    text-align: center;
+}
+
+/* main */
+#main ol li {
+    text-align: left; 
+    margin: 0 auto; 
+    width: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* images */
+#images td img {
+    width: 140px;
+    transition: all 0.3s ease-in-out;
+}
+
+#images td {
+    border: none;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+#images td img:hover  {
+    border: 5px inset white;
+}
+
+.large {
+transform: scale(2); 
+box-shadow: 15px 15px 15px black;
+border: 5px inset white;
+transform: scale(1.3) rotate(360deg);
+}
+
+/* slideshows*/
+#slideshows img {
+    height: 380px;
+}
+
+.slideshow-container {
+position: relative;
+max-width: 1000px;
+margin: auto;
+text-align: center;
+padding: 10px 0 5px 0;
+background-color: white;
+margin: 0 380px 0 380px;
+}
+
+.slide {
+    display: none;
+}
+
+.fade {
+    animation: fade 2s linear infinite;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.5;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: gray;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.active {
+    background-color: black;
+}
+
+/* audios */
+#audios {
+    text-align: center;
+    padding-left: 180px;
+    padding-right: 180px;
+}
+
+#audios table {
+    border: 4px solid black;
+    width: 100%;
+    border-spacing: 10px;
+    background-color: steelblue;
+}
+
+#audios td {
+    border: 2px solid black;
+    padding: 10px 5px 10px 5px;
+    background-color: lightblue;
+}
+
+#audios img {
+    width: 180px;
+    border: 10px double gray;
+    background-color: black;
+    border-radius: 1000px;
+}
+
+#audios audio {
+    width: 250px;
+}
+
+/* videos */
+#videos {
+    text-align: center;
+}
+
+#videos ul {
+    position: block;
+    float: right;
+    list-style-type: none;
+}
+#videos ul li{
+    margin-right: 20px;
+    padding: 2px 10px 2px 10px;
+    border: 2px solid darkblue;
+    background-color: lightblue;
+}
+
+#videos button {
+    width: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: none;
+    background-color: lightblue;
+}
+
+#videos button:hover {
+    font-weight: 600;
+}
+
+/* userlists */
+#userlists {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#userlists h3 {
+    text-decoration: underline;
+    margin-top: -30px;
+}
+
+#userlists table {
+    text-align: center;
+    background-color: aliceblue;
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#userlists th, td {
+    border: 1px solid black;
+    padding: 0;
+}

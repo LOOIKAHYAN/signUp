@@ -1,0 +1,67 @@
+
+body {
+    background-image: url("../image/wall03.jpg");
+    background-size: 1400px 780px;
+    background-position: center; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Century Gothic';
+}
+
+.login-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 4px 10px 15px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.login-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #333333;
+    font-weight: 800;
+}
+
+.form-control {
+    margin-bottom: 20px;
+}
+
+.btn-login {
+    background-color: rgb(233, 233, 122);
+    color: #000000;
+    border: 1px solid black;
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-login:hover {
+    background-color: orange;
+    font-weight: bold;
+}
+
+input [type="name"], [type="password"] {
+    font-family: "Century Gothic";
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    font-weight: bold;
+}
+
+#bulb {
+    width: 45px;
+    transition: transform 0.4s ease-in-out;
+}
+
+#bulb:hover {
+    transform: rotateZ(360deg);
+}
